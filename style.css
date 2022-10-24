@@ -1,0 +1,113 @@
+body{
+    background:url(./images/background_img.jpg)
+}
+
+.main{
+    box-sizing: border-box;
+    margin-left: 7px;
+    margin-top: 20px;
+    
+}
+
+h1{
+    width: 250px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: chocolate;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.instruction{
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: green;
+    background-color: bisque;
+    font-weight: bold;
+}
+h4{
+    margin-top: 20px;
+}
+.random{
+    display: flex;
+}
+.randompoint{
+    width: 200px;
+    height: 100px;
+    padding: 4px;
+    font-size: 3vw;
+    color: purple;
+    background-color: mediumseagreen;
+}
+.points{
+    height: 100px;
+    width: 70px;
+    padding: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: aqua;
+}
+.points > div{
+    margin-top: 20px;
+    display: flex;
+}
+.buttons{
+    display: flex;
+    gap: 5px;
+}
+
+.btn
+{
+    width: 80px;
+    height: 100px;
+    cursor: pointer;
+}
+.red{
+    
+    background: url(./images/red.png);
+    background-position: center;
+    background-size: cover;
+   
+}
+.blue{
+    background: url(./images/blue.png);
+    background-position: center;
+    background-size: cover;
+   
+}
+.yellow{
+    background: url(./images/yellow.png);
+    background-position: center;
+    background-size: cover;
+   
+}
+.green{
+    background: url(./images/green.png);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.text{
+    width: 210px;
+    padding: 4px;
+    margin-top: 10px;
+    color: white;
+    background-color: darkcyan;
+}
+.yourpoint{
+    width: 210px;
+    height: 100px;
+    margin-top: 10px;
+    padding: 4px;
+    color: ghostwhite;
+    background-color: darkcyan;
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
